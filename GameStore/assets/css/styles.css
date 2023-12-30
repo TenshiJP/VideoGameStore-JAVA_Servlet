@@ -1,0 +1,132 @@
+/*Header*/
+body {
+	font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #435d84;
+    color:#e5ebef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    width: 92px;
+    height: auto;
+    border-radius: 55%;
+}
+.title1 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.username {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.user-icon {
+    width: 64px;
+    height: auto;
+    margin-right: 5px;
+}
+
+/*Menu de opciones*/
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #41545a;
+    color: #e5ebef;
+    text-align: center;
+    width: 100%;
+}
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+.menu-item {
+    margin: 10px 0;
+}
+.menu-link {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #7895b2; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 180px; 
+}
+.menu-link:hover {
+    text-decoration: underline;
+    background-color: #5976a2;
+}
+
+/*Cuerpo de la web*/
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #41545a;
+}
+.section-title {
+    color: #223451;
+}
+.section-para {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 3em;
+}
+.values-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.value-item {
+    margin-bottom: 10px;
+}
+.bold-value {
+    font-weight: bold;
+    color: #223451;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.embedded-video {
+    width: calc(50% - 10px);
+    height: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+/*Footer*/
+.footer-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #05142a;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+}
+.footer-link {
+	background: #602d32;
+	border-radius: 50%;
+    text-decoration: none;
+    color: #e5ebef;
+    margin: 0 10px;
+}
+.footer-copyright {
+    text-align: right;
+    margin-right: 35px;
+}

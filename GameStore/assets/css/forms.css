@@ -1,0 +1,114 @@
+/*Formularios*/
+body {
+	background: #e5ebef;
+	font-family: Arial, sans-serif;
+}
+
+.form-container {
+    background-color: #41545a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 32.5% 2em 32.5%;
+    width: 35%;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 1em 0 1em 0;
+    color: #05142a;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-label, .input-legend {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #e5ebef;
+}
+
+.input-span {
+    font-size: 16px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0.5px solid #dd362d;
+    background: whitesmoke; 
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.radio-input, .checkbox-input {
+    margin-right: 5px;
+}
+
+.radio-label, .checkbox-label {
+    font-size: 14px;
+    color: #e5ebef;
+}
+
+.input-group:last-child {
+    text-align: center;
+}
+
+button[type="button"], input[type="submit"], input[type="button"] {
+    background-color: #802d35;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover,  input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #602d32;
+}
+
+/*Tablas*/
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.result-table th {
+  background-color: #ff545d;
+  color: #223451;
+  padding: 10px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.result-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ff545d;
+  background-color: #fff6f4;
+  color: #602d32;
+}
+
+.result-table tfoot td {
+  background-color: #5a081b;
+  color: #f9eff1;
+  text-align: right;
+}
+
+.result-table-container {
+  max-width: 98%;
+  margin: 0 auto;
+}

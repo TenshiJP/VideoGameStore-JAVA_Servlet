@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/fondo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 50%;
+    text-align: center;
+}
+
+.card {
+    background-color: #223451;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 0.75em;
+    max-width: 45%;
+    margin: 0 auto;
+    color: #435d84;
+}
+
+.title {
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin: 1em 0em 1.5em 0em;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 1.2em;
+}
+
+.label {
+    color: #e5ebef;
+    display: block;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.button {
+    margin-top: 1.5em;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #802d35;
+    color: #e5ebef;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #602d32;
+}
+
+.error {
+    margin-top: 1.8em;
+    font-weight: bolder;
+    color: #dd362d;
+}
+
+.forgot-password {
+    color: #41545a;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1em;
+    color: #e5ebef;
+    margin-top: 20px;
+    border-radius: 1em;
+}

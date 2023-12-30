@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry exported="true" kind="var" path="JDK_TOOLS"/>
+    <classpathentry exported="true" kind="var" path="JBOSS300/bin/run.jar"/>
+    <classpathentry exported="true" kind="var" path="JBOSS300/bin/shutdown.jar"/>
+    <classpathentry exported="true" kind="var" path="JBOSS300/client/jboss-j2ee.jar"/>
+    <classpathentry exported="true" kind="var" path="JBOSS300/server/default/lib/javax.servlet.jar"/>
+    <classpathentry exported="true" kind="lib" path="C:/java/jboss-3.0.8/server/default/lib/classes12.zip"/>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="src" path="j2src"/>
+    <classpathentry kind="output" path="bin"/>
+</classpath>
